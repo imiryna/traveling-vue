@@ -1,13 +1,8 @@
 <template>
-  <div :class="$style.div">
-    <button :class="$style.red">Click me</button>
-  </div>
+  <button :class="$style.red">Click me</button>
 </template>
 
 <style module>
-.div {
-  margin: 80px;
-}
 .red {
   align-items: center;
   background-color: #ffffff;
@@ -17,7 +12,7 @@
   box-sizing: border-box;
   color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
-  display: inline-flex;
+  display: inline-block;
 
   font-size: 16px;
   font-weight: 600;
