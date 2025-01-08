@@ -4,17 +4,5 @@ const darc = 'bg'
 </script>
 
 <template>
-  <div class="red">hello vue <IButton :class="darc"></IButton></div>
+  <IButton></IButton>
 </template>
-
-<style>
-.bg {
-  background-color: green;
-}
-.red {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  margin: 80px;
-}
-</style>
